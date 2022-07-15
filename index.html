@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css" >
+</head>
+
+<body>
+    <!-- <h1>Race Registration!</h1> -->
+    <form>
+        <h1>RACE REGISTRATION</h1>
+
+        <hr>
+        <label for="first">First Name</label>
+        
+        <br>
+        <input type="text" name="first" placeholder="First Name...">
+        <br>
+        <br>
+        <label for="last">Last Name</label>
+        <br>
+        <input type="text" name="last" placeholder="Last Name...">
+        <br>
+        <br>
+        <label>Select a race:</label>
+        <br>
+        <input type="radio" name="race" id="race" value="fun">
+        <label for="fun">Fun run 5K</label>
+        <br>
+        <input type="radio" name="race" id="race" value="full marathon">
+        <label for="full">Full marathon</label>
+        <br>
+        <input type="radio" name="race" id="race" value="half marathon">
+        <label for="half">Half marathon</label>
+        <br>
+        <br>
+        <label for="email">email</label><br>
+        <input type="email" name="email" placeholder="enter your email id">
+        <br>
+        <br>
+        <label for="password">password</label><br>
+        <input type="password" name="password" placeholder="enter your password" required>
+        <br>
+        <br>
+        <label for="age">select age group</label>
+        <input list="age group" id="age" name="age" placeholder="select age group"  />
+
+        <datalist id="age group">
+            <option value="under 18" selected>
+            <option value="over 18">
+            <option value="over 60">
+        </datalist>
+        <br>
+        <br>
+        <button>submit</button>
+        <br>
+        <br>
+    </form>
+    
+</body>
