@@ -1,0 +1,88 @@
+body{
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	/* height: 100vh; */
+
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+h1{
+    color:#00005d;
+    text-align: center;
+    font-size: 140%;
+    font-family: sans-serif;
+}
+form{
+    display: flexbox;
+    border:2px;
+    border-style: solid;
+    font-family:sans-serif;
+    font-size: 100%;
+    font-weight:lighter;
+    border-color: rgba(0, 0, 0, 0.235);
+    width: 20%;
+    min-width:fit-content;
+    height: 150%;
+    margin-left: 40%;
+    border-radius: 1%;
+    margin-right: 70%;
+    color:#00005d;
+    background-color: rgb(217, 217, 217);
+    box-shadow: inset;
+    border-style:none;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 0.5%;
+    
+
+
+}
+button{
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+    position:relative;
+    font-family: sans-serif;
+    margin-left: 20%;
+    font-weight:400;
+    font-size: 120%;
+    background-color:#00005d;
+    color:floralwhite;
+    
+    border-style: none;
+    
+    width: 60%;
+    height: 110%;
+
+}
+input{
+    display:flexbox;
+    position:relative;
+    margin-left: 5%;
+    color:rgb(254, 254, 254);
+    margin-top: 10px;
+    border-style:none;
+    border-bottom-style: solid;
+    border-bottom-color: #00005d3f;
+    color:#00005d;
+    
+    background-color: rgba(217, 217, 217, 0);
+    font-size: 100%;
+    text-align: left;
+   
+}
+label{
+    font-size: 85%;
+    margin-left: 5%;
+}
